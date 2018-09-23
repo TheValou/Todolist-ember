@@ -1,0 +1,56 @@
+
+<h2 class="text-center">Liste des choses à faire</h2>
+<br>
+<br>
+
+<div class="container">
+  <div class="mx-auto">
+    <h3 class="text-center"> Ajouter une tâche </h3>
+    <form>
+     <div class="form-group">
+       <label>Nom de la tâche :</label>
+       {{input value=name class="form-control"}}
+       <label>Description de la tâche :</label>
+       {{textarea value=description class="form-control" type="text-area"}}
+       <button {{action (route-action 'save' description name)}} class="btn btn-success" type="submit">
+         <span> Ajouter </span>
+       </button>
+     </div>
+
+   </form>
+ </div>
+ <br>
+
+</div>
+<br>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Tâche</th>
+      <th scope="col">Description</th>
+      <th scope="col">Faite</th>
+      <th scope="col">Modifier la tâche</th>
+      <th scope="col">Supprimer la tâche</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each model as |task|}}
+    <tr class=" {{if task.done "table-success"}}">
+      <th scope="row">{{task.id}}</th>
+      <td> {{task.name}}</td>
+      <td>{{task.description}}</td>
+      <td>
+        {{one-way-checkbox checked=task.done update=(action (route-action 'doneTodo' task))}}
+
+      </td>
+      <td>        <button class="btn btn-default edit" {{action (route-action "update" task)}}> Modifier</button>
+      </td>
+      <td><button class="btn btn-danger remove" {{action (route-action "delete" task)}}> Supprimer</button></td>
+
+    </tr>
+    {{/each}}
+
+  </tbody>
+</table>

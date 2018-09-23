@@ -1,0 +1,12 @@
+WARNING: 
+WARNING: /home/valentin/todolist-backend/todolist-frontend/node_modules/ember-cli-broccoli-sane-watcher/node_modules/sane:
+WARNING:    Missing dependency 'fsevents'
+WARNING: 
+WARNING: /home/valentin/todolist-backend/todolist-frontend/node_modules/qunit/node_modules/sane:
+WARNING:    Missing dependency 'fsevents'
+WARNING: 
+WARNING: /home/valentin/todolist-backend/todolist-frontend/node_modules/sane:
+WARNING:    Missing dependency 'fsevents'
+ember-cli: 3.4.2
+node: 8.10.0
+os: linux x64

@@ -1,0 +1,1 @@
+/home/valentin/todolist-frontend/tmp/funnel-input_base_path-2DVOs74s.tmp/active-model-adapter.js

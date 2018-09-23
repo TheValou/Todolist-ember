@@ -1,0 +1,1 @@
+/home/valentin/todolist-frontend/node_modules/ember-inflector/app/helpers/pluralize.js

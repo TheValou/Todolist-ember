@@ -1,0 +1,1 @@
+/home/valentin/todolist-frontend/tmp/broccoli_persistent_filtertemplate_compiler-output_path-rf6cu5Kn.tmp/todolist-frontend/templates/application.js

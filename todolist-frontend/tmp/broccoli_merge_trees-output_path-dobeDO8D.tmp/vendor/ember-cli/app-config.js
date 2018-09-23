@@ -1,0 +1,1 @@
+/home/valentin/todolist-frontend/tmp/funnel-input_base_path-ng9zFmaD.tmp/app-config.js

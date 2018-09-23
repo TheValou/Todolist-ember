@@ -1,0 +1,1 @@
+/home/valentin/todolist-frontend/node_modules/ember-cli-app-version/app/initializers/app-version.js

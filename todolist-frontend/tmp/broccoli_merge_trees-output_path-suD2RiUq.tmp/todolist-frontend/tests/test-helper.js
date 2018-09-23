@@ -1,0 +1,1 @@
+/home/valentin/todolist-frontend/tmp/broccoli_persistent_filterbabel__babel_todolist_frontend-output_path-eVXGPUKE.tmp/todolist-frontend/tests/test-helper.js

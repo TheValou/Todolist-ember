@@ -1,0 +1,1 @@
+{"modulePrefix":"todolist-frontend","environment":"development","rootURL":"/","locationType":"auto","EmberENV":{"FEATURES":{},"EXTEND_PROTOTYPES":{"Date":false}},"APP":{"name":"todolist-frontend","version":"0.0.0+d765ffbc"},"emberData":{"enableRecordDataRFCBuild":false},"exportApplicationGlobal":true}
