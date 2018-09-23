@@ -1,24 +1,39 @@
-# README
+# Simple application Todolist
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Simple Todolist application, with PostgreSQL, Ember.js
 
-Things you may want to cover:
+## Installation
 
-* Ruby version
+Follow these easy steps to install and start the app:
 
-* System dependencies
+### Set up Rails app
 
-* Configuration
+First, install the gems required by the application:
 
-* Database creation
+    bundle install
 
-* Database initialization
+Next, execute the database migrations/schema setup:
 
-* How to run the test suite
+	rake db:create
+  
+	rake db:migrate
+  
+### Set up Ember app
 
-* Services (job queues, cache servers, search engines, etc.)
+Go in `todolist-frontend/`
 
-* Deployment instructions
+	npm install
+  
+	bower install
 
-* ...
+
+### Launch App
+
+	rails s
+  
+  ### Launch tests
+
+	rspec
+Will launch all tests
+
+You can check Rspec Documentation for more details : https://github.com/rspec/rspec-rails 
